@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+
+.individual-result {
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.result-data {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.result-thumbnail {
+  padding: 5px;
+  text-align: center;
+}
