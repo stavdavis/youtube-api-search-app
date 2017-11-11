@@ -42,7 +42,7 @@ function renderResult(result) {
 
 function displayYoutubeSearchData(data) {
   const results = data.items.map((item, index) => renderResult(item));
-  $('.js-search-results').html(results);
+  $('.js-search-results').html(results).prop('hidden', false);
 }
 
 function watchSubmit() {
